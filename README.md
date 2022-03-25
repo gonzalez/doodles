@@ -1,3 +1,3 @@
-# grafanaSofrito
-This repository contains a mix of grafana related examples and experiments.
+# Doodles
+A collection of experiments and more
  > Sometimes a good day just means you got to the next error - Twitter User
