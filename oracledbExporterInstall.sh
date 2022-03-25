@@ -27,3 +27,6 @@ wget https://gist.githubusercontent.com/gonzalez/7950a170505c11055cb0290f010143a
 
 #install the oracle exporter in /usr/local/bin
 GOBIN=/usr/local/bin/ go install github.com/iamseth/oracledb_exporter@latest
+
+cp /root/go/pkg/mod/github.com/iamseth/oracledb_exporter@v0.0.0-20220319074645-5fc3b515f982/default-metrics.toml /opt/oracle/
+
