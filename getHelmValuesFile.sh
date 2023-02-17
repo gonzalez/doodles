@@ -15,3 +15,4 @@ case "$PRODUCT" in
 esac
 
 wget -q "$valueUrl" -O "$PRODUCT"-values.yaml
+printf "The values.yaml file for $PRODUCT has been downloaded to $PRODUCT-values.yaml" 
