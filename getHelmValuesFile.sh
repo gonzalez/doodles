@@ -3,7 +3,7 @@ set -o errexit  # exit on nonzero exitstatus
 set -o nounset  # exit on unbound variable  
 set -o pipefail # don't hide errors within pipes
 
-echo -n "Enter the name of the Grafana OSS Product (loki,mimir,tempo,grafana): "
+printf "Enter the name of the Grafana OSS Product (loki,mimir,tempo,grafana): "
 read -r   PRODUCT;  
 
 case "$PRODUCT" in
