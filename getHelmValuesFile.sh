@@ -14,4 +14,4 @@ case "$PRODUCT" in
   *)  echo "Invalid Product Name" ;;
 esac
 
-wget "$valueUrl" -O "$PRODUCT-values.yaml"
+wget "$valueUrl" -O "$PRODUCT"-values.yaml
